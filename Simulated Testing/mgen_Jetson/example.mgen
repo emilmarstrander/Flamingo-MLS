@@ -1,0 +1,37 @@
+# MGEN script begins here
+# These are some "Transmission Event" script lines
+# Originate two UDP flows
+0.0 ON 1 UDP SRC 5001 DST 127.0.0.1/5001 PERIODIC [1 1024]
+0.0 ON 2 UDP SRC 5002 DST 224.225.1.2/5002 PERIODIC [1 512]
+# These script lines send a single 1 megabyte TCP mgen message
+# Note that the "mgen message" will be received in multiple
+# "mgen fragments" by the target node.
+0.0 ON 1 TCP DST 10.0.0.1/5000 PERIODIC [1 1048576] COUNT 1
+# Modify the pattern/rate of flow 2 4 seconds into the test
+4.0 MOD 2 POISSON [10 1024]
+# These are some "Reception Event" script lines
+# Monitor some ports for UDP traffic
+0.0 LISTEN UDP 5000-5002,6000,6003
+# Join an IP multicast group
+0.0 JOIN 224.225.1.2 INTERFACE eth0
+# Join a SSM multicast group (Supported only for *nix)
+#0.0 JOIN 232.1.1.1 SRC 25.25.25.1 INTERFACE eth0
+# For WIN32, use the "PORT" option
+0.0 JOIN 224.225.1.2 PORT 5002
+# For OSX use the "interface" option if a default multicast route is not defined
+#0.0 JOIN 224.1.2.3 interface en0
+# Join a multicast group across a range of ports
+0.0 JOIN 224.1.2.5 PORT 5005-5010
+# On IPv6 systems set the port option when IPv4 group membership is requested
+0.0 JOIN 224.1.2.4 port 5001
+# Later, leave the group
+5.0 LEAVE 224.225.1.2 INTERFACE eth0
+# This SSM LEAVE is for UNIX (Currently SSM is supported only in UNIX)
+#5.0 LEAVE 224.224.1.2 SRC 25.25.25.1 INTERFACE eth0
+# Incrementally ignore some receive traffic
+6.0 IGNORE UDP 5000-500
+18.0 IGNORE UDP 5001,6000,6003
+# More MGEN lines (terminate the flows)
+10.0 OFF
+110.0 OFF 2
+# MGEN script ends here
