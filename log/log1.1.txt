@@ -1,0 +1,122 @@
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 Build time = Oct  9 2023 13:02:00
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 GLOBAL_ID=1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 PORT_APPLICATION=4900
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 PORT_HANDSHAKE=4950
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 PORT_LOCAL_TRANSMIT=4000
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 PORT_LOCAL_RECEIVE=4100
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 MULTICAST_ADDRESS_EXTERNAL=239.0.0.1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 BROADCAST_ADDRESS_INTERNAL=127.0.0.1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 SOCKET_ADDRESS=127.0.0.1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 SEND_APPLICATION_MESSAGES_TO_SELF=1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 LOG_LEVEL=2
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 LOCAL_MACHINE=0
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 DELETE_LOG=1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 NUMBER_OF_LOG_ELEMENTS=100000
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 PRINT_TO_CONSOLE=1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 MAX_BUFFER_LENGTH=100000
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 MAX_NUMBER_OF_NODES=100
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 RECEIVE_PACKET_HANDSHAKE_TIMEOUT=1
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 MAX_MSG_SENT=100
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 FAIL_TO_RECEIVE_VALUE=5
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 TOKEN_LOSS_TIMEOUT_VALUE=11000
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 RETRANSMISSION_TIMEOUT_VALUE=5500
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 JOIN_TIMEOUT_VALUE=100
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 CONSENSUS_TIMEOUT_VALUE=450
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 UPDATE_INTERVAL=100000
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 WAIT_FOR_WELCOME_TIMEOUT=5500
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 JOIN_SESSION_TIMEOUT=11000
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 MLS_HANDLING_ERROR_RESET_TIMER=4000
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 MLS_HANDLING_ERROR_COUNTER_THRESHOLD=10
+Mon Oct  9 13:02:07 2023
+time=9327708,id=1,thread=6848 NO_UPDATE_THRESHOLD=200000
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 NO_MESSAGE_SENT_THRESHOLD=7000
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 APPLICATION_MESSAGE_HEARTBEAT_INTERVAL=2000
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 REMOVE_MEMBER_FAIL_THRESHOLD=3
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 REMOVE_MEMBERS_NOT_UPDATING=1
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 REMOVE_MLS_MEMBERS_NOT_IN_TOTEM_GROUP=1
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 REMOVE_MEMBERS_NOT_SENDING_MESSAGES=1
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 REMOVE_DUPLICATES=1
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 MAX_EPOCH_STATE_HISTORY_SIZE=100
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 CREATE_OWN_GROUP=0
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 TEST_SETUP=0
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 Binding socket 3 to 127.0.0.1:4950 and mulitcast address 239.0.0.1
+Mon Oct  9 13:02:07 2023
+time=9327709,id=1,thread=6848 Initializing drone with id 1
+Mon Oct  9 13:02:07 2023
+time=9327719,id=1,thread=6848 thread_totem created: 1440
+Mon Oct  9 13:02:07 2023
+time=9327719,id=1,thread=1440 Totem: Shift to gather state 4
+Mon Oct  9 13:02:07 2023
+time=9327719,id=1,thread=1440 Added to id_to_address id 1: 127.0.0.1:4950
+Mon Oct  9 13:02:08 2023
+time=9328170,id=1,thread=1440 Totem: Shift to commit state 29
+Mon Oct  9 13:02:08 2023
+time=9328170,id=1,thread=1440 Totem: Shift to recovery state 36
+Mon Oct  9 13:02:08 2023
+time=9328172,id=1,thread=1440 Totem: Shift to operational state, proc_set=1,fail_set= 61
+Mon Oct  9 13:02:08 2023
+time=9328175,id=1,thread=6848 Joined session with group_id=567159e7,epoch=0,confirmation_tag=63f0fc,mls_group{id,index} = {1,0,0},
+Mon Oct  9 13:02:08 2023
+time=9328175,id=1,thread=6848 thread_local_receive created: 6032
+Mon Oct  9 13:02:08 2023
+time=9328175,id=1,thread=6848 thread_local_transmit created: 3680
+Mon Oct  9 13:02:08 2023
+time=9328175,id=1,thread=3680 Binding socket 6 to 127.0.0.1:4900 and mulitcast address 239.0.0.1
+Mon Oct  9 13:02:08 2023
+time=9328175,id=1,thread=3680 Receiving at port 4900, local transmit to 127.0.0.1:4000
+Mon Oct  9 13:02:08 2023
+time=9328175,id=1,thread=6032 Binding socket 7 to 127.0.0.1:4100 and mulitcast address 239.0.0.1
+Mon Oct  9 13:02:08 2023
+time=9328175,id=1,thread=6032 Local receive at port 4100, sending to 239.0.0.1:4900
+Mon Oct  9 13:02:08 2023
+time=9328176,id=1,thread=6848 Epoch 0,confirmation_tag=63f0fc,mls_group={1,0,0},
+Mon Oct  9 13:02:08 2023
+time=9328187,id=1,thread=1440 Commit of update proposal sent
+Mon Oct  9 13:02:08 2023
+time=9328188,id=1,thread=6848 Received commit from 127.0.0.1:4950
+Mon Oct  9 13:02:08 2023
+time=9328190,id=1,thread=6848 Epoch 1
+Mon Oct  9 13:02:08 2023
+time=9328190,id=1,thread=6848 Epoch 1,confirmation_tag=d4c7fd,mls_group={1,0,0},
+Mon Oct  9 13:02:10 2023
+time=9330177,id=1,thread=6032 Sending heartbeat
