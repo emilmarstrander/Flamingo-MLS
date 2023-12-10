@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtls_syntax.a  CMakeFiles/tls_syntax.dir/src/tls_syntax.cpp.o
+/usr/bin/ranlib libtls_syntax.a
