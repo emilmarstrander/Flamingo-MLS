@@ -9,4 +9,4 @@ This required the an older version of OpenSSL. We used version 1.1. We compile F
 The "Simulated Testing" folder contains files used during the simulated testing. It contains the following:
 - Compiled MGEN executables for Jetson and Ubuntu.
 - "callgrind.out.3137", which is the file used in QCachegrind to analyze CPU consumption.
-- The base configuration file used during simulated testing. This is no longer a valid configuration file, since we changed the parameters after testing.
+- The base configuration file used during simulated testing. This is no longer a valid configuration file, since we changed accepted parameters after testing.
